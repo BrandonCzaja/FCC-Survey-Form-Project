@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h1 id="title">Lorem ipsum dolor sit amet</h1>
+        <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <form id="survey-form">
+            <label for="name" id="name-label">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Name" /> <br />
+            <label for="email" id="email-label">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email" /> <br />
+            <label for="number" id="number-label">Number:</label>
+            <input type="number" id="number" name="number" min="1" max="100" placeholder="#" /><br />
+            <input list="dropdown" name="dropdown" />
+            <datalist id="dropdown" placeholder="Meal">
+                <option value="Chicken" name="meal"></option>
+                <option value="Steak" name="meal"></option>
+                <option value="Fish" name="meal"></option>
+                <option value="Pasta" name="meal"></option>
+                <option value="Vegetables" name="meal"></option></datalist
+            ><br />
+            <input type="radio" id="age1" name="age" value="30" />
+            <label for="age1">0-30</label> <br />
+            <input type="radio" id="age2" name="age" value="30" />
+            <label for="age2">31-60</label><br />
+            <input type="radio" id="age3" name="age" value="30" />
+            <label for="age3">61-90</label>
+        </form>
+    </body>
+</html>
